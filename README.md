@@ -1,0 +1,1 @@
+This repository demonstrates a common error in PHP code involving the use of deprecated mysql_* functions and insufficient error handling.  The `bug.php` file shows the insecure and outdated code. The `bugSolution.php` file provides a corrected version using the more secure and modern MySQLi extension with improved error handling.
