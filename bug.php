@@ -1,0 +1,1 @@
+This code uses the mysql_* functions which are deprecated and have been removed from PHP 8.0.  They are also known to be insecure.  The code attempts to connect to a MySQL database, select a database, and then execute a query.  If any step fails, it doesn't handle the error gracefully and may not provide helpful debugging information.
